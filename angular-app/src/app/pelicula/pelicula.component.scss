@@ -1,0 +1,22 @@
+// :host {
+//     background-color: rgb(26, 25, 25);
+//     display: block;
+//     color: #fff;
+//   }
+  
+.pelicula {
+    display: inline-block;
+    margin: 10px 10px;
+    min-height: 100vh;
+
+    &__titulo {
+        color: lightness($color: #7a6767);
+    }
+    &__imagen {
+    width: 200px;
+    }
+    &__temporadas {
+        color: lightness($color: #7a6767);
+    }
+}
+

@@ -1,0 +1,12 @@
+<input type="text" id="buscador" [(ngModel)]="searchText" placeholder="Películas, series ...">
+<p>{{ searchText }}</p>
+
+<div class="describ">
+    <h2 >Inicio </h2>
+    <div class="describ__inicio">
+        <app-pelicula 
+        *ngFor="let film of listadoInicio | filterMovies: searchText"
+        [pelicula]='film'>
+        </app-pelicula>
+    </div>
+</div>

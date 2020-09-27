@@ -1,0 +1,8 @@
+<div class="pelicula">
+    <p class="pelicula__titulo">Título: {{pelicula.title | titulo }}</p>
+    <p class="pelicula__temporadas">Temporadas: {{pelicula.numSeasons}}</p>
+    <img class="pelicula__imagen" src="{{pelicula.imageUrl}}">
+    <p>Tags:
+    <span *ngFor="let t of pelicula.tags">#{{t}}</span>
+    </p>
+</div>

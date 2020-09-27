@@ -1,0 +1,23 @@
+:host{
+    background-color: black;
+}
+
+
+.cabecera {
+    background-color: #000;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    &__logo {
+        height: 100px;
+    }
+    &__link {
+        display: flex;
+        justify-content: space-between;
+        color: red;
+        margin: 100px 100px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #e90404;
+    }
+  }
