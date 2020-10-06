@@ -1,33 +1,42 @@
-:host{
-    background-color: black;
+:host {
+  background-color: black;
 }
 
-
 .cabecera {
-    background-color: #000;
-    display: flex;
-    padding: 10px;
-    justify-content: space-between;
-    height: 220px;
+  background-color: #000;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  height: 220px;
 
-
-    &__logo {
-        width: 350px;
-        height: 180px;
-        padding: 20px;
-    }
-
-    &__link {
-        width: 250px;
-        display: flex;
-        justify-content: space-between;
-        color: red;
-        margin: 150px 150px;
-        padding: 20px;
-        border-radius: 5px;
-        border: 2px solid #e90404;
-    }
-
+  &__logo {
+    width: 350px;
+    height: 180px;
+    padding: 20px;
   }
 
-//  TODO: Movile responsive
+  &__link {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    color: red;
+    margin: 150px 150px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #e90404;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cabecera {
+      height: 600px;
+    display: block;
+
+
+    &__link {
+      width: 100px;
+      margin: 40px 80px;
+    
+    }
+  }
+}
