@@ -8,6 +8,8 @@
     display: flex;
     padding: 10px;
     justify-content: space-between;
+    height: 220px;
+
 
     &__logo {
         width: 350px;
@@ -16,12 +18,16 @@
     }
 
     &__link {
+        width: 250px;
         display: flex;
         justify-content: space-between;
         color: red;
-        margin: 100px 100px;
-        padding: 10px;
+        margin: 150px 150px;
+        padding: 20px;
         border-radius: 5px;
-        border: 1px solid #e90404;
+        border: 2px solid #e90404;
     }
+
   }
+
+//  TODO: Movile responsive
