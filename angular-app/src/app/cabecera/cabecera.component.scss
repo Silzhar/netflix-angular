@@ -8,9 +8,13 @@
     display: flex;
     padding: 10px;
     justify-content: space-between;
+
     &__logo {
-        height: 100px;
+        width: 350px;
+        height: 180px;
+        padding: 20px;
     }
+
     &__link {
         display: flex;
         justify-content: space-between;
