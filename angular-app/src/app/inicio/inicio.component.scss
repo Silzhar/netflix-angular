@@ -1,9 +1,22 @@
 .describ{
     margin-left: 60px;
-    font-size: x-large;
+    font-size: 20px;
 
     &__inicio{
         display: flex;
         justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .describ {
+        margin-left: 20px;
+        display: block;
+        
+        &__inicio {
+          display: block;
+          font-size: 20px;
+        }
     }
 }

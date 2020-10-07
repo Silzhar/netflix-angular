@@ -1,9 +1,4 @@
-// :host {
-//     background-color: rgb(26, 25, 25);
-//     display: block;
-//     color: #fff;
-//   }
-  
+
 .pelicula {
     display: inline-block;
     margin: 10px 10px;
@@ -20,3 +15,9 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+
+    .pelicula {
+        min-height: 50vh;
+    }
+}

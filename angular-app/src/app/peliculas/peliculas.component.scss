@@ -1,10 +1,23 @@
 .describ{
-    margin-left: 60px;
-    font-size: x-large;
+    margin-left: 40px;
+    font-size: 20px;
 
     &__peliculas{
         display: flex;
         justify-content: space-around;
 
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .describ {
+        margin-left: 20px;
+        display: block;
+        
+        &__peliculas {
+          display: block;
+          font-size: 20px;
+        }
     }
 }
